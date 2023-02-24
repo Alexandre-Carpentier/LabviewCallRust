@@ -1,10 +1,8 @@
 mod lib;
 
 use windows_sys::{
-    /*core::*, */ Win32::Foundation::*, 
-    /*Win32::System::Threading::*, 
-    */ /* Win32::UI::WindowsAndMessaging::*, 
-    */ Win32::Storage::FileSystem::*, 
+     Win32::Foundation::*, 
+    Win32::Storage::FileSystem::*, 
     Win32::System::SystemServices::*,
     Win32::Devices::Communication::DCB,
     Win32::Devices::Communication::*,
@@ -14,10 +12,6 @@ use windows_sys::{
 use core::ffi::c_void;
 use std::ffi::CString;
 use std::os::raw::c_char;
-
-
-
-
 
 fn main()
 {
