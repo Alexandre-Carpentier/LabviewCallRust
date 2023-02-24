@@ -4,7 +4,6 @@ Implement basic Serial interface functionnalities for LabView. The library itsel
 not use NI VISA library or equivalent. The binding between Win32 and Labview is made with Rust.
 
 Author: 
-A.CARPENTIER
 */
 use std::ffi::CString;
 use core::ffi::c_void;
